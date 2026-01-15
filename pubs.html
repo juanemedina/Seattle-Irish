@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Seattle Irish — Pubs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <h1>Seattle Irish</h1>
+        <div class="tag">Irish pubs in and around Seattle</div>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="pubs.html">Seattle Pubs</a>
+        <a href="about.html">About Us</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Seattle Pubs</h2>
+      <p>
+        Click a pub to open its Google Maps listing. The “Review” column is just placeholder text for now—
+        you can edit these directly in the HTML, or later swap to a spreadsheet / CMS.
+      </p>
+    </section>
+
+    <section class="card" style="margin-top:18px;">
+      <table class="table">
+        <thead>
+          <tr>
+            <th style="width: 28%;">Pub</th>
+            <th style="width: 22%;">Google Maps</th>
+            <th>Review / Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Example Pub One</td>
+            <td><a href="https://www.google.com/maps" target="_blank" rel="noopener">Open listing</a></td>
+            <td class="review">Add a quick vibe check here (music, Guinness quality, crowd, etc.).</td>
+          </tr>
+          <tr>
+            <td>Example Pub Two</td>
+            <td><a href="https://www.google.com/maps" target="_blank" rel="noopener">Open listing</a></td>
+            <td class="review">Great for matches; busy on weekends. (Replace with your notes.)</td>
+          </tr>
+          <tr>
+            <td>Example Pub Three</td>
+            <td><a href="https://www.google.com/maps" target="_blank" rel="noopener">Open listing</a></td>
+            <td class="review">Cozy booths, solid food menu. (Replace with your notes.)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p style="margin-top:14px; color: var(--muted);">
+        Tip: Later we can make this list auto-generated from a Google Sheet so you don’t edit HTML by hand.
+      </p>
+    </section>
+
+    <div class="footer">
+      Want me to convert your pub spreadsheet into this table with real Google Maps links? Paste the list and I’ll format it.
+    </div>
+  </div>
+</body>
+</html>
